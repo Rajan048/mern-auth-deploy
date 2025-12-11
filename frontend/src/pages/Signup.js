@@ -27,7 +27,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/signup"; // FIXED
+      const url = "https://mern-auth-deploy-api.vercel.app/auth/signup"; // FIXED
       const response = await fetch(url, {
         method: "POST",
         headers: {
